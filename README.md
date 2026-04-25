@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CrisisMind
 
-## Getting Started
+CrisisMind is a decision intelligence system that helps disaster coordinators prioritize actions, allocate resources, and respond effectively under pressure.
 
-First, run the development server:
+## 🚀 Core Idea
+In the critical hours of a disaster, emergency responders are often overwhelmed with a deluge of raw data—weather reports, damage assessments, and distress signals. What they need aren't just more data points, but **clear, actionable decisions**. CrisisMind processes complex situational data to deliver deterministic, prioritized response plans, ensuring that every second and every resource is maximized to save lives.
 
+## 🧠 Features
+- **Multi-zone input system**: Simultaneously manage and evaluate data across multiple geographic locations.
+- **Decision engine**: A deterministic prioritization algorithm that scores zones based on severity, vulnerability, infrastructure damage, and urgency.
+- **Resource allocation**: Automatically computes the optimal distribution of limited resources (personnel, food, medical kits, etc.) to the areas that need them most.
+- **Trade-off explanation**: Transparently explains *why* certain areas were prioritized over others, providing accountability for high-stakes decisions.
+- **Scenario simulation**: Instantly project the impact of worsening conditions with one-click simulations.
+- **Risk prediction**: Anticipates secondary threats and suggests preemptive measures before situations escalate.
+- **Manual override**: Allows human commanders to bypass system logic for specific zones when on-the-ground intelligence dictates a different approach.
+
+## 📸 Screenshots
+
+### Input Interface
+<div align="center">
+  <img src="public/screenshots/input-interface.png" alt="Input Interface showing zone inputs and resource allocation" width="800"/>
+</div>
+
+### Decision Dashboard
+<div align="center">
+  <img src="public/screenshots/decision-dashboard.png" alt="Decision Dashboard showing Action Plan and Impact Stats" width="800"/>
+</div>
+
+### Priority & Allocation View
+<div align="center">
+  <img src="public/screenshots/priority-allocation.png" alt="Priority & Allocation View showing priority cards" width="800"/>
+</div>
+
+## 🧪 Demo Scenario
+The application is currently configured to demonstrate a **flood scenario**, but the underlying decision engine is highly adaptable and fully scalable to manage a wide array of other disasters, including earthquakes, wildfires, and industrial accidents.
+
+## ⚙️ How It Works
+The platform operates on a streamlined, step-by-step flow:
+1. **Input**: Commanders enter real-time data about affected zones (people at risk, severity, accessibility) and available resources.
+2. **Decision Engine**: The system deterministically evaluates the inputs against baseline safety heuristics and risk algorithms.
+3. **Output**: An interactive, prioritized action plan is generated, detailing where to send resources, anticipated response times, and critical warnings.
+
+## 🛠 Tech Stack
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+## ▶️ Run Locally
+
+Clone the repository and install the necessary dependencies:
+```bash
+npm install
+```
+
+Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Goal
+The ultimate goal of CrisisMind is to eliminate decision paralysis in emergency command centers. By transforming chaotic, fragmented data into structured, strategic directives, we empower response teams to deploy resources faster and more safely. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**CrisisMind doesn’t just show problems — it tells you what to do next.**
