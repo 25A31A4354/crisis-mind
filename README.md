@@ -18,7 +18,8 @@ In the critical hours of a disaster, emergency responders are often overwhelmed 
 
 ### Input Interface
 <div align="center">
-  <img src="public/screenshots/input-interface.png" alt="Input Interface showing zone inputs and resource allocation" width="800"/>
+  <img src="<img width="1791" height="974" alt="Screenshot 2026-04-26 at 19 03 30" src="https://github.com/user-attachments/assets/85c01cbf-1a37-4861-ab34-077bdf9efd37" />
+" alt="Input Interface showing zone inputs and resource allocation" width="800"/>
 </div>
 
 ### Decision Dashboard
