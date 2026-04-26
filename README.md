@@ -18,18 +18,19 @@ In the critical hours of a disaster, emergency responders are often overwhelmed 
 
 ### Input Interface
 <div align="center">
-  <img src="<img width="1791" height="974" alt="Screenshot 2026-04-26 at 19 03 30" src="https://github.com/user-attachments/assets/85c01cbf-1a37-4861-ab34-077bdf9efd37" />
-" alt="Input Interface showing zone inputs and resource allocation" width="800"/>
+  <img width="1791" height="974" alt="Screenshot 2026-04-26 at 19 03 30" src="https://github.com/user-attachments/assets/deaa6893-5b72-4152-bf68-3bdefaf2ecf0" />
 </div>
 
 ### Decision Dashboard
 <div align="center">
-  <img src="public/screenshots/decision-dashboard.png" alt="Decision Dashboard showing Action Plan and Impact Stats" width="800"/>
+ <img width="1791" height="669" alt="Screenshot 2026-04-26 at 19 04 43" src="https://github.com/user-attachments/assets/f3cbb22e-8d19-4d53-a694-65664acd1bdb" />
+
 </div>
 
 ### Priority & Allocation View
 <div align="center">
-  <img src="public/screenshots/priority-allocation.png" alt="Priority & Allocation View showing priority cards" width="800"/>
+<img width="1791" height="955" alt="Screenshot 2026-04-26 at 19 04 58" src="https://github.com/user-attachments/assets/cc8177de-bffd-4e4f-b70f-c055dcc9f069" />
+
 </div>
 
 ## 🧪 Demo Scenario
